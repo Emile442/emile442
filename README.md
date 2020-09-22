@@ -1,16 +1,33 @@
-### Hi there 👋
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px" />, I'm Emile</h1>
 
-<!--
-**Emile442/emile442** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```php
 
-Here are some ideas to get you started:
+<?php
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+namespace Emile442;
+
+class About extends Me
+{
+    public function getCurrentWorkplace()
+    {
+        return [
+            'workplace' => [
+                'school' => '{EPITECH}',
+                'position' => 'Student'         
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge()
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Vuejs::class,
+            ReactNative::class,
+            C::class,
+        ];
+    }
+}
+```
