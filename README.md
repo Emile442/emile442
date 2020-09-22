@@ -27,6 +27,7 @@ class About extends Me
             Vuejs::class,
             ReactNative::class,
             C::class,
+            CPP::class,
         ];
     }
 }
